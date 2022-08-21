@@ -13,7 +13,7 @@
             ⛔⛔⛔
 [rewrite_local]
 # ～ Pixiv去除广告（2022-05-19）@ddgksf2013
-^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://github.com/junjiego2/QX_rules/raw/master/Crack/pixivpro.js
+^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://github.com/junjiego2/QX_rules/blob/main/Crack/pixivpro.js
 [mitm] 
 hostname=oauth.secure.pixiv.net
 ***********************************/
